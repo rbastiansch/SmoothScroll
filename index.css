@@ -1,0 +1,51 @@
+html, body { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+header{
+  position: fixed;
+  display: flex;
+  /*background: #27606E;*/
+  height: 80px;
+  width: 100%;
+  top: 0;
+  background: rgba(180,150,20,0.2);
+}
+nav{
+  display: flex;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+nav ul li{
+  text-align: center;
+  list-style: none;
+}
+nav ul li a{
+  cursor: pointer;
+}
+.sections{
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.sections h2{
+  margin-top: 0px;
+}
+#section1{
+  margin-top: 80px;
+  background: #29852B;
+}
+#section2{
+  background: #452985;
+}
+#section3{
+  background: #7A6E1A;
+}
